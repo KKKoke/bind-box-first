@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*background-image: url('../img/heart.gif') !important;*/
+    /*background-repeat: repeat !important;*/
+    /*background-color: rgba(238, 46, 238, 0.99);*/
+}
+
+@font-face {
+    font-family: yahei;
+    src: url("fonts/YaHei.woff");
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+    font-family: yahei, sans-serif;
+    /*background: radial-gradient(circle at center, pink, purple);*/
+    background: #002158;
+}
+
+.mainImg_1 {
+    background-image:url('../img/boy.jpg');
+    /*background-position: 10px 10px;*/
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 240px;
+    padding-top: 150px;
+}
+
+.mainImg_2 {
+    background-image:url('../img/girl.jpg');
+    /*background-position: 10px 10px;*/
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 240px;
+    padding-top: 150px;
+}
+
+.NavBar a {
+    text-decoration: none;
+    color: #000;
+}
+
+.btn {
+    border-radius: 20px;
+    width: 157px;
+    background: linear-gradient(to right, #65008E, #BB01BD);
+    color: white;
+    height: 42px;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.mybtn {
+    padding: 9px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    color: white;
+    background-color: black;
+    border: 0 solid #000;
+    font-size: 14px;
+    /*border-radius: 15px;*/
+}
+
+.round {
+    background-color: #000;
+    border: 0 solid #000;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    color: #fff;
+}
+
+.footText {
+    font-size: 12px;
+    color: white;
+    font-weight: 500;
+}
+
+.cardText {
+    line-height: 1.7rem;
+    font-size: 15px;
+}
+
+.headText {
+    font-size: 16px;
+    color: white;
+}
+
+.headText2 {
+    font-size: 20px;
+    color: white;
+}
+
+.modal {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #111;
+    font-family: sans-serif;
+}
+
+.card-title,
+.card-text{
+    font-family: sans-serif;
+}

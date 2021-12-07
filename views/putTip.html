@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>放入纸条</title>
+    <!-- 移动设备优先 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-12 text-center headText2 mt-3">
+            请放入纸条
+        </div>
+        <div class="col-12">
+            <div class="form-group" style="color: white; font-weight: normal">
+                <label for="wxid">微信号</label>
+                <input type="text" class="form-control" id="wxid" aria-describedby="emailHelp" name="wxid">
+            </div>
+            <div class="form-group" style="color: white; font-weight: normal">
+                <label for="sex">性别</label>
+                <select class="form-control" id="sex" name="sex" required>
+                    <option value="man" selected>男</option>
+                    <option value="woman">女</option>
+                </select>
+            </div>
+            <div class="form-group" style="color: white; font-weight: normal">
+                <label for="info">自我介绍</label>
+                <textarea type="text" class="form-control" id="info" name="info"></textarea>
+            </div>
+            <button type="submit" class="btn" onclick="inTip()" style="font-size: 15px;">确认提交</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>

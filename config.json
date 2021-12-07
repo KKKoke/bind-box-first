@@ -1,0 +1,16 @@
+{
+
+    "port": "80",
+    "user":"root",
+    "passwd":"cqmyg.14dsS",
+    "table":"tcp(121.5.22.226)/box",
+    "use_wechat":true,
+    "mchid":"ee034ef7b20047f3b6a4aedd17a86273",
+    "cert_file":"/crt/serve.crt",
+    "cert_key_file":"/crt/serve.key",
+    "redir_path":"http://101.132.74.181?ts=ok",
+    "notify_path": "http://101.132.74.181/pay_notify",
+    "put_fee":1,
+    "get_fee":1
+}
+

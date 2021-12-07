@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--    引入令牌验证失效的跳转js-->
+    <script src="static/js/jquery-3.6.0.js"></script>
+    <script src="static/js/index.js"></script>
+    <meta charset="UTF-8">
+    <title>脱单盲盒</title>
+    <!-- 移动设备优先 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="static/bootstrap-4.1.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="static/css/index.css">
+</head>
+<body>
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-12">
+            <img src="static/img/mainImg.png" alt="..." style="width: 100%; height: auto;">
+        </div>
+    </div>
+</div>
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-12 headText">
+            盲盒交友
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-6 text-center" id="getMan">
+            <img src="static/img/getOne2.png" alt="..." style="width: 100%; height: auto;">
+        </div>
+        <div class="col-6 text-center" id="getWoman">
+            <img src="static/img/getOne1.png" alt="..." style="width: 100%; height: auto;">
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-6 text-center">
+            <!--            <img src="static/img/putTip.png" alt="..." style="width: 100%; height: auto;" onclick="putTip()">-->
+            <button type="button" class="btn" id="getOne">投递盲盒</button>
+        </div>
+        <div class="col-6 text-center">
+            <!--            <img src="static/img/myTip.png" alt="..." style="width: 100%; height: auto;" onclick="myTips()">-->
+            <button type="button" class="btn" id="myTips">我的纸条</button>
+        </div>
+    </div>
+</div>
+
+<div class="content">
+
+</div>
+
+<div class="modal fade" id="div1">
+    <div class="modal-dialog modal-dialog-scrollable">
+        <div class="text-center" style="font-size: 25px; font-weight: bold; margin-top: 80px;">
+            玩家须知
+        </div>
+        <div class="mt-2" style="font-size: 15px; font-weight: normal; padding: 0 30px;">
+            <p>这是一个盲盒交友游戏，你不知道会抽到谁的纸条，也不知道你的纸条将会被谁抽到。</p>
+
+            <p>如果您放入纸条，建议您认真填写，并留下真实有效的联系方式，以便喜欢你的人能够联系到你。</p>
+
+            <p>希望您带着一颗真诚的心来交友，乱填的纸条有可能会作废哦。为了让交友信息更加真实，抽放纸条时需要支付一些费用，以提高参与门槛。</p>
+
+            <p>所有纸条均来自网友，我们无法保证所有纸条内容的真实性，在添加好友时，请一定要仔细甄别，切勿轻易转账以防被骗。</p>
+
+            <p>最后，祝您能收获一段美满的姻缘。</p>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="div2">
+    <div class="modal-dialog modal-dialog-scrollable">
+        <div class="text-center" style="font-size: 20px; font-weight: 600; margin-top: 160px;">
+            截图扫码添加客服微信
+        </div>
+        <div class="text-center mt-2">
+            <img src="static/img/serverImg.jpg" alt="..." style="height: 200px; width: 200px;">
+        </div>
+    </div>
+</div>
+
+
+<footer>
+    <div class="row pb-2 my-4" style="font-family: sans-serif;">
+        <div class="col-12 footText text-center">
+            <button type="button" data-toggle="modal" data-target="#div1" style="background-color: rgba(255, 255, 255, 0); border: 0; color: white; font-size: 15px;">玩家须知</button>
+            <span> |</span>
+            <button type="button" data-toggle="modal" data-target="#div2" style="background-color: rgba(255, 255, 255, 0); border: 0; color: white; font-size: 15px;">联系客服</button>
+            <span> |</span>
+            <button type="button" data-toggle="modal" data-target="#div2" style="background-color: rgba(255, 255, 255, 0); border: 0; color: white; font-size: 15px;">投诉举报</button>
+        </div>
+    </div>
+</footer>
+
+<script src="static/js/jquery-3.6.0.js"></script>
+<script src="static/bootstrap-4.1.3-dist/js/bootstrap.bundle.js"></script>
+<script src="static/js/index.js"></script>
+</body>
+</html>

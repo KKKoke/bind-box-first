@@ -1,0 +1,4 @@
+配置文件路径: /home/box/config.json
+配置文件读取成功
+ {80 root cqmyg.14dsS tcp(121.5.22.226)/box true /crt/serve.crt /crt/serve.key ee034ef7b20047f3b6a4aedd17a86273 1 1 http://101.132.74.181?ts=ok /home/box}
+数据库url:  root:cqmyg.14dsS@tcp(121.5.22.226)/box
